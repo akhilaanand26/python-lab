@@ -1,0 +1,5 @@
+p=int(input("Enter the principle value: "))
+r=int(input("Enter the rate: "))
+t=int(input("Enter the time period: "))
+amount=p*(pow(1+(r/100),t))
+print("compound amount",amount)
